@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#101419">
-  <title>Nostr推荐</title>
+  <title>一米｜推荐</title>
   <script>
     window.WEBHOME_PAGE_OPENED_AT = Date.now();
     if (window.fongmiBridge) document.documentElement.classList.add("fm-native");
@@ -4377,7 +4377,7 @@
 
     <section class="section" id="recommendSection">
       <div class="section-head">
-        <h3>Nostr推荐</h3>
+        <h3>一米｜推荐</h3>
         <aside class="connection-dock" id="connectionDock">
           <button class="connection-toggle focusable" id="connectionToggle" type="button" aria-expanded="false" aria-controls="connectionBody">
             <span class="dot warn" id="connectionDot"></span>
@@ -7940,7 +7940,7 @@
     }
 
     function renderChips() {
-      const chips = [{ id: "live", title: "直播" }, { id: "all", title: "Nostr推荐" }, { id: "recent", title: "最近" }]
+      const chips = [{ id: "live", title: "直播" }, { id: "all", title: "一米｜推荐" }, { id: "recent", title: "最近" }]
         .concat(visibleTmdbLists().map((item) => ({ id: item.id, title: item.title })));
       const root = $("chips");
       const keys = chips.map((chip) => chip.id + ":" + chip.title).join("\n");
